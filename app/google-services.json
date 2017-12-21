@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "989790762317",
+    "firebase_url": "https://easycab-50102.firebaseio.com",
+    "project_id": "easycab-50102",
+    "storage_bucket": "easycab-50102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989790762317:android:b090ee6cded84588",
+        "android_client_info": {
+          "package_name": "com.example.ramkumar.easycab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989790762317-go1p1nlt3nf0ffrrk0rho0ermevropcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ramkumar.easycab",
+            "certificate_hash": "8e31a9f96f8ea12e95dd40d30cc6dc73ea594ce2"
+          }
+        },
+        {
+          "client_id": "989790762317-ma8qut5ull0o5nemm6kofu6pajj0pcfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAKzp-XY5qzcPOYaZqaBQbWvXrpbJIcn0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989790762317-ma8qut5ull0o5nemm6kofu6pajj0pcfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

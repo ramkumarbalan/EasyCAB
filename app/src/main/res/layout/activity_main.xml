@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ramkumar.easycab.MainActivity"
+    android:background="@drawable/bg">
+
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E A S Y C A B"
+            android:textSize="36sp"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+    
+
+    <TextView
+        android:id="@+id/bottom_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text=""/>
+    
+    
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_above="@id/bottom_textView">
+
+
+        <Button
+            android:background="@drawable/btn_login"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_login"
+            android:layout_marginRight="6dp"/>
+
+
+        <Button
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/btn_register"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_register"/>
+
+    </LinearLayout>
+    
+</RelativeLayout>
